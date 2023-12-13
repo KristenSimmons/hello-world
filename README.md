@@ -1,7 +1,5 @@
 # hello-world
 
-My first website from scratch for Code Fellows
+This is my first website with Code Fellows! Learning HTML is fun! 
 
-<p style="color: green;">colorful text</p
 
->
