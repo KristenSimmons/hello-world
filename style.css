@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+    padding: 15%;
+}
+
+h1{
+    align-items: flex-start:center;
+}
+
+section{
+    border: color(srgb red green rgb(224, 251, 74));
+    display: inline-block;
+    width: 30%;
+    align-items: stretch;
+}
+
+ul{
+    background-color: aliceblue;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 40%;
+}
+
+img{
+    align-items: center;
+}
+
