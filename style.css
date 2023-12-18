@@ -5,6 +5,11 @@ body{
 
 main{
     background-color: yellow;
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 40%;
+      };
 }
 
 h1{
@@ -43,4 +48,10 @@ center{
     margin-right: auto;
     width: 50%;
     }
+
+h2{
+    font-size: 2em;
+    font-weight: bold;
+    color: purple
+}   
 
