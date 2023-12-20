@@ -4,6 +4,11 @@ console.log("I am in the HTML");
 
 alert("Welcome to our company page!");
 
+function getSrc(){
+    const userSrc = prompt("How did you hear about us?");
+    return userSrc
+}
+
 const userSrc = prompt("How did you hear about us?");
 console.log("userSrc");
 
@@ -16,6 +21,9 @@ if (userSrc == "google"){
 } else {
     alert ("Glad you found us! Check out our amzing reviews!");
 }
+
+
+
 
 
 
