@@ -1,26 +1,31 @@
 'use strict';
 
-console.log("I am in the HTML");
-
+console.log("HTML is hard!");
 alert("Welcome to our company page!");
 
 function getSrc(){
-    const userSrc = prompt("How did you hear about us?");
-    return userSrc
+    const theSrc = prompt("How did you hear about us?");
+    return theSrc;
 }
 
-const userSrc = prompt("How did you hear about us?");
-console.log("userSrc");
+let theSrc = getSrc();
+console.log(theSrc);
 
-if (userSrc == "google"){
+if (theSrc == "google"){
     alert ("Thank you for using Google to find us!");
-} else if (userSrc == "referal"){
+} else if (theSrc == "referal"){
     alert ("Let us know who referred you so we can thank them!");
-} else if (userSrc == "drive by"){
+} else if (theSrc == "drive by"){
     alert ("Glad you found us!"); 
 } else {
     alert ("Glad you found us! Check out our amzing reviews!");
 }
+
+function greetUser(){
+    document.write("Hello!!");
+}
+
+greetUser();
 
 
 
