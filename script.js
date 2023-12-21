@@ -12,7 +12,7 @@ let theSrc = getSrc();
 console.log(theSrc);
 
 
-if (theSrc == "google" || "Google" || "GOOGLE"){
+if (theSrc == "Google"){
     alert ("Thank you for using Google to find us!");
 } else if (theSrc == "referral"){
     alert ("Let us know who referred you so we can thank them!");
@@ -27,6 +27,10 @@ function greetUser(){
 }
 
 greetUser();
+
+function getRating(){
+    let rating = prompt ('Between 1-5, How would you rate our site?');
+}
 
 
 
