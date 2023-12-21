@@ -11,9 +11,10 @@ function getSrc(){
 let theSrc = getSrc();
 console.log(theSrc);
 
-if (theSrc == "google"){
+
+if (theSrc == "google" || "Google" || "GOOGLE"){
     alert ("Thank you for using Google to find us!");
-} else if (theSrc == "referal"){
+} else if (theSrc == "referral"){
     alert ("Let us know who referred you so we can thank them!");
 } else if (theSrc == "drive by"){
     alert ("Glad you found us!"); 
