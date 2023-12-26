@@ -54,23 +54,13 @@ if (theSrc == "Google"){
 }
 
 
-function getRating(){
-    let rating = prompt ('Between 1-5, How many stars do you give us?');
+function rateMyPage(){
+    let rating = prompt("How many stars do you give us? 1-5");
+
     for (let i = 0; i < rating; i++){
-        document.write(",img class='loop-img' src='starimage.jpeg' alt='star image' />");
+        document.write("<img class='loop-img' src='links/starimage.jpg' alt='blue and red star' />");
     }
 }
-
- // function rateMyPage(){
-   // let rating = prompt("How many stars would you rate my page? 1-5");
-
-    //for (let i = 0; i < rating; i++){
-        document.write("<img class='loop-img' src='star.png' alt='5 pointed yellow star in the style of a cartoon' />");
-
-
-getRating()
-
-
 
 
 
