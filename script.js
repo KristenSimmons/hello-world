@@ -1,7 +1,38 @@
 'use strict';
 
 console.log("HTML is hard!");
-alert("Welcome to our company page!");
+
+
+function getName(){
+        //declaring a constant variable called usersName, assigning it the value of what the prompt returns (the users input)
+     const usersName = prompt("What is your name?");
+        while (usersName == null || usersName == ''){
+            if (usersName == null){
+                usersName = confirm("Would you like to skip this step?");
+                usersName = '';
+                return usersName;
+            } else {
+                usersName = prompt("Please provide a name");
+            }
+        }
+        return usersName;
+}
+
+let usersName = getName();
+console.log(usersName);
+
+// Welcome message that uses Users Name input
+function welcomeMessage(){
+    if (usersName !== null && usersName !== ''){
+        document.write (`Welcome to our company page, ${usersName}!`);
+    } else {
+        document.write("Welcome to our company page!");
+    }    
+}
+
+welcomeMessage();
+
+
 
 function getSrc(){
     const theSrc = prompt("How did you hear about us?");
@@ -22,15 +53,22 @@ if (theSrc == "Google"){
     alert ("Glad you found us! Check out our amzing reviews!");
 }
 
-function greetUser(){
-    document.write("Hello!!");
-}
-
-greetUser();
 
 function getRating(){
-    let rating = prompt ('Between 1-5, How would you rate our site?');
+    let rating = prompt ('Between 1-5, How many stars do you give us?');
+    for (let i = 0; i < rating; i++){
+        document.write(",img class='loop-img' src='starimage.jpeg' alt='star image' />");
+    }
 }
+
+ // function rateMyPage(){
+   // let rating = prompt("How many stars would you rate my page? 1-5");
+
+    //for (let i = 0; i < rating; i++){
+        document.write("<img class='loop-img' src='star.png' alt='5 pointed yellow star in the style of a cartoon' />");
+
+
+getRating()
 
 
 
