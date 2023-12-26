@@ -58,7 +58,7 @@ function rateMyPage(){
     let rating = prompt("How many stars do you give us? 1-5");
 
     for (let i = 0; i < rating; i++){
-        document.write("<img class='loop-img' src='links/starimage.jpg' alt='blue and red star' />");
+        document.write("<img class='loop-img' src='links/starimage.jpg' width=100px height=100px margin=auto alt='blue and red star' />");
     }
 }
 
